@@ -1,0 +1,50 @@
+This is just a demo 1
+This has more to do 
+
+git remote add origin SSH (To add your files/folders to be pulled or pushed on Github rep)
+
+Always check for git status 
+To initialize a new git repository use 
+git init 
+
+git add .  or git add -A or git add -u 
+git commit -m "Message" 
+git push origin master or git push for master branch 
+ ** To add to another branch use git push origin branch-name**
+
+git diff filename
+To restore the changes or to undo the changes use 
+git reset filename
+git checkout filename or .
+
+To add files or extensions of file which user doesn't want to track during his project developement
+touch .gitignore (creates a new file named .gitignore ) 
+to open the file use file editor .gitignore
+
+git add -A stages All files
+git add . stages new and modified , without deleted 
+git add -u stages modified and deleted , without new 
+
+To take any repo to your machine 
+git clone [url] (ssh is more prefered )
+For the entire repository use . at the end 
+ex git clone [url] (ssh is more prefered ) .
+
+To create branches use 
+git branch branch-name
+To switch to another branch from master branch use 
+**git checkout branch-name
+
+To merge from branch to master use 
+git merge branch-name and then push using 
+git push -u origin master
+
+To remove a branch use 
+git branch -d branchname 
+
+fork: When you have to make any changes to someone else's project first fork that as we should not make any changes to the main branch (upstream)
+Once fork is done then you can make any feature changes my creating a *branch* for your forked repository 
+Then the owner of the main branch will "Compare and check the pull request" and then decide whether it should be merged with it 
+fork->clone->branch->changes->add->commit->push->PR
+
+ 

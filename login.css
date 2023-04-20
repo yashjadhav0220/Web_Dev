@@ -1,0 +1,40 @@
+.container{
+    text-align: center;
+}
+body 
+{
+  font-family:Arial; 
+  background: linear-gradient(to right, #155799, #159957); 
+  color:whitesmoke;
+  align-items: center;
+  padding: 100px;
+}
+#Login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: white;
+    box-sizing: border-box;
+}
+#user,#password{
+    width: 50%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+}
+#login-txt{
+    font-size: xx-large;
+}
+#form{
+
+        align-items: center;
+        padding: 75px;
+        width:35rem;
+        margin: auto;
+        color:whitesmoke;
+        backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(11, 15, 13, 0.582);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
+    
+    
+}
