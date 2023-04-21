@@ -45,6 +45,8 @@ git branch -d branchname
 fork: When you have to make any changes to someone else's project first fork that as we should not make any changes to the main branch (upstream)
 Once fork is done then you can make any feature changes my creating a *branch* for your forked repository 
 Then the owner of the main branch will "Compare and check the pull request" and then decide whether it should be merged with it 
-fork->clone->branch->changes->add->commit->push->PR
+fork->clone->branch->checkout->changes->add->commit->push->PR
+
+for every change i.e one pull request = one branch 
 
  
