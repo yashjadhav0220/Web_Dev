@@ -49,4 +49,16 @@ fork->clone->branch->checkout->changes->add->commit->push->PR
 
 for every change i.e one pull request = one branch 
 
+Making forket project even with main project 
+git fetch --all --prune (prune stands for all the deleted as well they will also be fetched)
+
+git reset --hard upstream/main
+then check git log to check whether main is same as upstream
+
+git push origin main
+
+Else use the (Fetch upstream)
+
+git pull upstream main (same as fetch but pull does it internally )
+
  
